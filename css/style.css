@@ -1,0 +1,218 @@
+*,
+*::before
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+     font-family: 'Poppins';
+     background-color: #fff;
+}
+.container{
+    width: 1200px;
+    padding: 0 20px ;
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+}
+.flax{
+    display: flex;
+}
+.dog_item {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+}
+.link_dog{
+    color: black;
+    text-decoration-line: none;
+}
+.bar_item{
+    list-style: none;
+}
+.sec_dog{
+    padding-top: 30px;
+    align-items: center;
+}
+.dog_list{
+    width: 395px;
+    justify-content: space-between;
+    margin-right: 205px;
+}
+.bar_list{
+    width: 138px;
+    justify-content: space-between;
+}
+.logotipe{
+    position: relative;
+    margin-right: 380px;
+}
+.logo{
+    top: -25px;
+    position: absolute;
+
+}
+.logo1{
+    position: absolute;
+left: 40px;
+top: -20px;
+}
+.sec_copilot{
+
+    position: relative;
+}
+.copitol_img{
+    position: absolute;
+    left:400px;
+}
+.copitol_item{
+    list-style: none;
+}
+.copitol_link{
+    margin-right: 40px;
+    color:#E27B3A ;
+    text-decoration: none;
+}
+.copitol_list{
+   padding: 0 auto;
+}
+
+.linky{
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color:#E27B3A ;
+    color: #fff; 
+}
+.linky:hover{
+    background-color:hsl(23, 100%, 50%)  ;
+     
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.copilot_title{ 
+    position: relative;
+    z-index: 3;
+    width: 612px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    margin-top: 148px;
+}
+.card_sec{
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.cards{
+    margin-top: 110px;
+    justify-content: space-between;}
+.card{
+    
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    width: 360px;
+    height: 241px;
+    position: relative;
+}
+.card:hover{
+    box-shadow: 5px 5px 25px rgb(182, 181, 181);
+}
+.card_title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+
+}
+.card_txt{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    
+}
+.card_img{
+    position: absolute;
+    top: -25px;
+    left: 160px;
+}
+#footer{
+    padding:;
+    color: #fff;
+    background-color: #140A03;
+}
+.futi{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+}
+.fut{
+    position: absolute;
+    left: 300px;
+    top: -50px;
+    width: 0px;
+    height: 0px;
+    border-right: 300px solid transparent;
+    border-left: 300px solid transparent;
+    border-bottom: 50px solid #140A03;
+}
+.lebl{
+    position: relative;
+}
+.listov{
+    margin-top: 100px;
+    padding: 0 auto;
+}
+.flaxol{
+    top: 145px;
+    right: -5px;
+    position: absolute;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+}
+
+.fut_lists{
+
+    display: flex;
+    justify-content:space-between
+}
+.list{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 25px;
+    list-style: none;
+    text-decoration-line: none;
+
+}
+.logo2{
+    right: -40px;
+    position: absolute;
+    margin-right: 100px;
+} 
+.pol{
+     top: 90px;
+    right: -5px;
+    position: absolute;
+    width: 179px;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 500px;
+    line-height: 31px;
+}
+
+
+
